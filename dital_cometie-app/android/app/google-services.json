@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "300745990566",
+    "project_id": "digital-cometie-app",
+    "storage_bucket": "digital-cometie-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300745990566:android:673b92f852654b5968af67",
+        "android_client_info": {
+          "package_name": "com.example.dital_cometie_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQ2gWNG3u83C3oWWUWg2a_YMKIQkwvkFo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
