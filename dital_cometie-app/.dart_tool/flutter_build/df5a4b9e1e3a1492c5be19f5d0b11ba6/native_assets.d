@@ -1,0 +1,1 @@
+ D:\\Code\\Flutter\ Projects\\Dital-Cometie-App\\dital_cometie-app\\.dart_tool\\flutter_build\\df5a4b9e1e3a1492c5be19f5d0b11ba6\\native_assets.yaml: 
