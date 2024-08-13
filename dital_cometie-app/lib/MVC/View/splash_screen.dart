@@ -27,15 +27,15 @@ class _SplashScreenState extends State<SplashScreen> with TickerProviderStateMix
   @override
   void initState() {
     super.initState();
-    Timer(
-      Duration(seconds: 3),
-          () => Navigator.pushReplacement(
-        context,
-        MaterialPageRoute(
-          builder: (context) => WorldStates(),
-        ),
-      ),
-    );
+    // Timer(
+    //   Duration(seconds: 3),
+    //       () => Navigator.pushReplacement(
+    //     context,
+    //     MaterialPageRoute(
+    //       builder: (context) => WorldStates(),
+    //     ),
+    //   ),
+    // );
   }
 
   @override
@@ -47,7 +47,9 @@ class _SplashScreenState extends State<SplashScreen> with TickerProviderStateMix
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Container(
-              height: MediaQuery.of((((((((())))))))),
+              height: MediaQuery.of(context).size.height * 0.5,
+              width: MediaQuery.of(context).size.width* 0.5,
+              color: Color(0xFFFBC600),
 
             ),
             // AnimatedBuilder(
@@ -74,7 +76,7 @@ class _SplashScreenState extends State<SplashScreen> with TickerProviderStateMix
             // ),
             SizedBox(height: MediaQuery.of(context).size.height * 0.08),
             Text(
-              "COVID-19\nTracker App",
+              "Digital Cometie App",
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
             ),
